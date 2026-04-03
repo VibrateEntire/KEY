@@ -1,0 +1,14 @@
+{
+  "name": "static-file-server",
+  "version": "1.0.0",
+  "description": "Simple static file server for Cloudflare Workers",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "publish": "wrangler deploy --env production"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
